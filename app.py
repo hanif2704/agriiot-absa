@@ -11,9 +11,7 @@ from utils.predictor import (
     ASPEK_LIST,
 )
 
-MODEL_DIR = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "model", "indobert_final"
-)
+MODEL_DIR = os.environ.get("MODEL_REPO", "hanifzs/indobert-absa-iot-pertanian")
 SENT_EMOJI = {"Positif": "🟢", "Netral": "🟡", "Negatif": "🔴"}
 SENT_COLOR = {"Positif": "#2ecc71", "Netral": "#f1c40f", "Negatif": "#e74c3c"}
 
