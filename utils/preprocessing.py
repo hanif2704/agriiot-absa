@@ -2,7 +2,7 @@ import re
 
 NORMALIZATION_DICT = {
     "bgt": "banget", "bgtt": "banget", "bangett": "banget",
-    "tp": "tapi", "tpi": "tapi", "tdk": "tidak", "gak": "tidak",
+    "tp": "tapi", "tpi": "tapi", "tdk": "tidak", "gak": "tidak", "syg": "sayang",
     "ga": "tidak", "nggak": "tidak", "enggak": "tidak", "gk": "tidak",
     "jg": "juga", "jgn": "jangan", "sy": "saya", "aq": "aku",
     "gw": "saya", "gue": "saya", "lu": "kamu", "km": "kamu",
